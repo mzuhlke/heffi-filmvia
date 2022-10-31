@@ -1,6 +1,19 @@
 <template>
   <div class="container" container-fluid main_container full-width>
-    <h1>Get all videos</h1>
+    <br />
+    <b-row>
+      <b-col>
+        <h1>HEFFI medias</h1>
+      </b-col>
+      <b-col>
+        <img
+          src="https://heffi.filmvia.com/Heffi_blue_logo-min.jpg"
+          alt="filmvia"
+          width="75px"
+        />
+      </b-col>
+    </b-row>
+    <br />
 
     <b-table
       id="my-table"

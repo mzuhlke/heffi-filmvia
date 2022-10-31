@@ -139,8 +139,11 @@ export default {
         // this.$auth.setUser(response.data.user) data.token
       } catch (err) {
         // eslint-disable-next-line no-console
-        console.log('error', err)
-        this.error = err
+        if (err.response.status === 401) {
+          this.error = err.response.data.message.message
+        } else {
+          this.error = err
+        }
       }
     },
   },

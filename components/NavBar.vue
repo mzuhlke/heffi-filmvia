@@ -12,7 +12,7 @@
         height="50px"
         width="50px"
       />
-      Filmvia - Heffi viewer
+      Filmvia - HEFFI viewer
     </b-navbar-brand>
 
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
