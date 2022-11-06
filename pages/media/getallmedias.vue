@@ -14,7 +14,7 @@
       </b-col>
     </b-row>
     <br />
-
+    <small>(click up / down arrows to sort data)</small>
     <b-table
       id="my-table"
       striped

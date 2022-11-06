@@ -4,7 +4,12 @@
     <h1>{{ form.title }}</h1>
     <div class="form-group">
       <div v-if="form.poster">
-        <video :poster="posterImage" controls @ended="onEnd()">
+        <video
+          :poster="posterImage"
+          controls
+          controlsList="nodownload"
+          @ended="onEnd()"
+        >
           <source :src="fileURL" type="video/mp4" />
         </video>
       </div>
@@ -16,7 +21,7 @@
           <p>
             <b
               >Rated points <small>(max: 90)</small> :
-              {{ form.rate_count / 9 }}</b
+              {{ Math.round(form.rate_count / 9) }}</b
             >
             <br />
             Story: {{ form.story }}<br />
