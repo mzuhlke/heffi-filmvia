@@ -13,7 +13,13 @@
         <a href="https://www.heffifinland.com/">HEFFI </a>festival home page
       </h3>
       <br />
-      <img src="en_badge_web_generic.png" alt="google" height="55px" />
+      <a
+        href="http://play.google.com/store/apps/details?id=com.filmvia.filmvia_mobile"
+        ><img src="en_badge_web_generic.png" alt="Google Play" height="55px"
+      /></a>
+      <a href="https://apps.apple.com/app/filmvia-mobile/id6444132208"
+        ><img src="App_Store_Badge.svg.png" alt="Apple Store" height="40px"
+      /></a>
     </div>
   </div>
 </template>
