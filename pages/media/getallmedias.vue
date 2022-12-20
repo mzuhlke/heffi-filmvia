@@ -101,7 +101,7 @@ export default {
             (progressEvent.loaded * 100) / progressEvent.total
           )),
       }
-      const URL = '/media/getsorted/best/0'
+      const URL = 'event/geteventmedialist/01GES761NANYRQJQ72BQ163ZFY'
       const config = {
         headers: {
           Authorization: this.$auth.strategy.token.get(),
